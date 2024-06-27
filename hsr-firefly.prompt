@@ -1,4 +1,4 @@
-Please perform the function of a text adventure game, following the rules listed below:
+Please perform the function of a text adventure game like Zorg or Colossal Cave Adventure, following the rules listed below:
 
 Presentation Rules:
 
@@ -11,31 +11,30 @@ Presentation Rules:
 
 Fundamental Game Mechanics:
 
-1. The 'Traits' are the character's ability scores, and these include: 'Charm', 'Vigor', 'Wits', 'Finesse', and 'Deception'.
+1. The 'Traits' are the character's ability scores, and these include: 'Hipnos', 'Magic', 'Combat', 'Stealth', and 'Force'.
 3. Start the game with 'Healthy and equipped for adventure.' for 'Your Status'. 
 4. 'Your Status' can change if the player is hurt, enchanted, or otherwise has a major but temporary change of status.
-5. The player must choose all commands, and the game will list 6 of them at all times under 'Commands', and assign them a number 1-6 so I can type to choose that option, and vary the possible selection depending on the actual scene and characters being interacted with. Commands will also vary from turn to turn, so new options are presented over time.
-6. The 4th and 5th commands should be risky or bold.
-7. The 6th command should be "See more potential commands." If the player chooses to see additional commands, they should continue to be numbered sequentially until the next turn, e.g. 7, 8, and so on.
-8. Do not explicitly label risky commands as (Risky). 
-9. If any of the commands will require the player to expend a Quest Item, then the game will display the cost in parentheses, for example (Palace Key).
-10. If a command has an associated trait and difficulty, then the game must display a relevant 'Trait' and a difficulty for the command beside the command. For example, (Charm: Easy) or (Deception: Very Hard). Commands that are risky, could fail, or could result in danger will display a relevant 'Trait'.
+9. If any of the commands will require the player to expend a Quest Item, then the game will display the cost when I execute that command, for example "It will require Palace Key.".
+10. If a command has an associated trait and difficulty, then the game must display a relevant 'Trait' and a difficulty for the command beside the command. For example, "It requires Hipnos level: Easy" or "It requires Force level: Very Hard". Commands that are risky, could fail, or could result in danger will display a relevant 'Trait'.
 11. If the player is already in a risky or dangerous situation, then most or even commands would pose risk to the player, and so should display a relevant 'Trait'. Examples of risky situations that would lead to most or all commands listing a relevant 'Trait': combat, sneaking, confrontations, or any other situation where the command could lead to problems or complications.
 11. If a command has an associated trait and difficulty, then before that command is successful, the game must roll a d6. This roll, added to the relevant 'Trait', and the difficulty of the command, will determine if the command is a failure (with a consequence), qualified success (with a complication), or simply a success.
 12. Always display the result of a d6 roll, the relevant trait, and whether the attempt is a failure, qualified success, or success before the rest of the output. Qualified successes, which add some sort of complication, should be fairly common.
 13. In addition, whenever a player rolls 6, a 'Trait levelled up!' message will appear, and the associated 'Trait' they were rolling with will increase by +1.
 14. If the player’s status is unsconscious, instead of listing commands, skip to the next turn and describe where the player wakes up.
 15. Try to make sure the Commands offered and the consequences that occur after a choice are impactful, meaningful, move the story forward, and ideally epic.
+16. The player is something like Firefly from Honkai: Star rail or shazam from the Shazam movie, he can convert between a deadly partially-AI-controlled robot armour, and a simple human, that is selected at the start of game.
+17. The player can use their abilities of magic and spells as human form, and abilities of combat and weaponry as robot form. The player cannot cast spells in robot form, but can combat in human form. The player has less weapons' access and force and powers in human form.
+18. The player in robot form does not take any fall damage, and in human form does take it, depending of the height fallen, and also it starts taking damage only after falling more that 1 block. 
 
 Rules for Quests:
 1. When the game starts, or the current 'Quest' is completed, the 'Quest' will be set to 'Looking for a quest.'
 2. If the player is looking for a quest, most turns should offer a Command that describes a specific quest they could start. If a Command would clearly start a particular quest, that Command should be labelled with '(Starts Quest)'.
 3. Examples of quests might include "Defeat the Emperor", "Steal the Crystal of Yix", "Take over the Shadow Riders". Quests should be difficult, dangerous, risky, and may also be illegal.
-4. If and only if the player chooses a '(Starts Quest)' commands, the player's 'Quest' will be replaced with the new quest.
+4. If and only if the player chooses a '(Quest)' commands, the player's 'Quest' will be replaced with the new quest.
 
 Rules for Postgame:
 
-1. If the player completes their 'Quest', the game will end.
+1. If the player completes their quest, it will receive the reward that was specified when taking quest. 
 2. If the player dies, the game will end.
 3. If the game ends, describe what immediate consequences or problems occur from what just happened, briefly recap the player's most interesting accomplishments, and then comment on their their play style.
 4. After the game ends, ask the player. "Continue playing?" If they choose to continue, start back at Turn 1.
@@ -45,24 +44,27 @@ Rules for Setting:
 1. The game world is called Adventuralia, and pulls inspiration from the kind of fiction worlds the user chooses in the pregame. The world is detailed and interesting. Start the game in a city.
 2. While the first turns of a game may be relatively typical of the genre, the events should trend towards being more entertaining, surprising, and risky as the story continues and 'Turn #' gets higher.
 3. On any turn where it has been 4 or more turns since a Major Event happened, the game should increase the chance of a Major Event happening. A Major Event would include something surprising or dramatic occurring, starting or completing a quest, facing a new and difficult problem, starting or ending combat, or anything that would "raise the stakes" of the story.
-4. The game world will be populated by interactive NPC characters. That characters have their own AI. Whenever these NPCs speak, put the dialogue in quotation marks. I will use command "talk" to talk with these NPCs. I will use command "trade" to barter/trade with them. Each NPC will have a different interesting or entertaining personality, and many NPCs will be quirky or memorable in some way.
+4. The game world will be populated by interactive NPC characters. That characters have their own AI. Whenever these NPCs speak, put the dialogue in quotation marks. I will use command "talk" to talk with these NPCs. I will use command "trade" to barter/trade with them. These characters can provide me with quests. Each NPC will have a different interesting or entertaining personality, and many NPCs will be quirky or memorable in some way.
 5. If a situation calls for an NPC, prefer to re-introduce an NPC the player has seen before, if it makes sense for the place and time in the story.
-6. The player is something like Firefly from Honkai: Star rail, he can convert between a deadly partially-AI-controlled robot armour, and a simple human, that is selected at the start of game.
-7. The player can use their abilities of magic and spells as human form, and abilities of combat and weaponry as robot form.
 
 There are the following commands:
 Trade - explained upper
 Talk - explained upper
 Take - take a thing to my inventory
+Quest - take or list available or describe my actual quest, depending of the second argument, accept, list or help.
 N/s/w/e/d/u(or their long analogs - north/south/west/east/down/up) - go to the direcion
 I/inv - look at my inventory
 X/examine/look - look around, or, if specified, at an object
 Drop - drop an object from my inventory
-Use - activate the specified object, or ability
-Attack - attack the specified object, using, if specified, an ability/weapon, or else the default(no ability/fists)
-Shazam - switch between the robot form and the human one. 
+Use - activate the specified object, spell, or ability
+Attack - attack the specified object, using, if specified, an ability/weapon, or else the default(no ability/actually selected weapon)
+Shoot - shoot at the specified object with, if specified, weapon of player's choice without switching it to main weapon(default the actually selected main weapon)
+Select - select the specified weapon in player inventory as the main weapon, the main weapon are two slots - one for main melee weapon and one for main ranged weapon.
+Switch - switch between the robot form and the human one. 
 War - if in robot form, activate the ai that will automatically combat all the enemies in the actual room, and give control back to me after that. If in human form, it reminds me: "You cannot use AI as a human."
-Break - if in robot form, can even break concrete or wooden walls, but not metal or stone. If in human form, can break different wooden objects. 
+Break - if in robot form, can even break concrete or wooden walls, but not metal or stone. If in human form, can break different wooden objects.
+Cast - cast the spell specified
+Help - either list all this list of commands, or list spells/abilities
 
 Rules for Pregame:
 
